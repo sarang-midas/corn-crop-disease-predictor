@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Corn Disease Predictor</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #d4fc79, #96e6a1);
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            width: 40%;
+            margin: 80px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #2b5938;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 16px;
+            color: #2b5938;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            margin-bottom: 18px;
+            border: 2px solid #91d18b;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #2b5938;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #244d31;
+        }
+
+        .result-box {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e8ffe8;
+            border-left: 5px solid #2b5938;
+            border-radius: 6px;
+        }
+
+        .result-text {
+            font-size: 20px;
+            color: #2b5938;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Corn Disease Predictor 🌽</h2>
+
+        <form action="/predict" method="post">
+
+            <label>Crop Stage:</label>
+            <input name="stage" placeholder="e.g., Germination and Emergence" required>
+
+            <button type="submit">Predict Disease</button>
+        </form>
+
+        {% if prediction %}
+        <div class="result-box">
+            <p class="result-text">Predicted Disease: {{ prediction }}</p>
+        </div>
+        {% endif %}
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+crop,crop stage,crop disease,soil ph,Cause,Organic Cure,Inorganic Cure
+Corn,Germination and Emergence,Seed Rot,6.98,Fungal infection,Bio-fungicide application,Sulphur dust
+Corn,Germination and Emergence,Pythium Rot,6.46,Waterlogged soil,Neem oil spray,Copper oxychloride
+Corn,Germination and Emergence,Seedling Blight,6.01,Fungal infection,Bio-fungicide application,Sulphur dust
+Corn,Seedling Stage,Damping Off,6.65,Fungal infection,Garlic extract,Copper oxychloride
+Corn,Seedling Stage,Cutworm Damage,6.76,Insect feeding,Bio-fungicide application,Mancozeb
+Corn,Seedling Stage,Root Rot,6.52,Soilborne fungus,Trichoderma treatment,Copper oxychloride
+Corn,Vegetative Stage,Maize Streak Virus,7.96,Virus via leafhoppers,Trichoderma treatment,Sulphur dust
+Corn,Vegetative Stage,Common Rust,7.08,Fungal infection,Bio-fungicide application,Mancozeb
+Corn,Vegetative Stage,Gray Leaf Spot,6.96,Fungal infection,Bio-fungicide application,Copper oxychloride
+Corn,Vegetative Stage,Armyworm Infestation,6.19,Insect invasion,Bio-fungicide application,Copper oxychloride
+Corn,Tasseling and Silking,Northern Corn Leaf Blight,6.33,Fungal infection,Bio-fungicide application,Copper oxychloride
+Corn,Tasseling and Silking,Southern Corn Leaf Blight,6.82,Fungal infection,Garlic extract,Copper oxychloride
+Corn,Tasseling and Silking,Stem Borer,6.2,Insect boring,Bio-fungicide application,Copper oxychloride
+Corn,Grain Filling,Corn Smut,5.84,Fungal infection,Garlic extract,Mancozeb
+Corn,Grain Filling,Diplodia Ear Rot,8.37,Fungal infection,Trichoderma treatment,Mancozeb
+Corn,Grain Filling,Gibberella Ear Rot,8.14,Fungal infection,Garlic extract,Sulphur dust
+Corn,Maturity,Ear Rot,6.97,High humidity fungus,Neem oil spray,Copper oxychloride
+Corn,Maturity,Kernel Rot,6.07,Storage fungus,Bio-fungicide application,Sulphur dust
+Corn,Maturity,Aspergillus Rot,7.51,Aflatoxin fungus,Garlic extract,Copper oxychloride
